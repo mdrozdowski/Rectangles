@@ -1,0 +1,14 @@
+﻿<Window x:Class="Rectangles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rectangles" Height="300" Width="500"
+        MouseLeftButtonDown="LeftDown"
+        MouseLeftButtonUp="LeftUp"
+        MouseRightButtonDown="RightDown"
+        MouseRightButtonUp="RightUp"
+        MouseMove="Move"
+        KeyDown="KeyPressed">
+    <Canvas Name="canvas">
+
+    </Canvas>
+</Window>
